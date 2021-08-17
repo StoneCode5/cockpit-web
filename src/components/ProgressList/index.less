@@ -1,0 +1,36 @@
+.list{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    &-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-box{
+            position: relative;
+            &-target{
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            &-current{
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+        }
+        &-num{
+            padding-left: 8px;
+            width: 90px;
+            display: flex;
+            justify-content: space-around;
+            div{
+                min-width: 36px;
+            }
+        }
+    }
+}

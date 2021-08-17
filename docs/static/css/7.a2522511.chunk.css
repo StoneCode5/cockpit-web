@@ -1,0 +1,2 @@
+.list{display:flex;justify-content:space-around}.item{justify-content:flex-start;color:#efeff1}.item,.item-outer{display:flex;align-items:center;border-radius:50%}.item-outer{justify-content:center;position:relative;background:#0c2249}.item-outer:after{position:absolute;top:-6px;bottom:-6px;left:-6px;right:-6px;background:linear-gradient(to bottom right,#43e2ff,#44a5ff);content:"";z-index:-1;border-radius:50%}.item-outer-inside{display:flex;justify-content:center;align-items:center}
+/*# sourceMappingURL=7.a2522511.chunk.css.map */

@@ -1,0 +1,2 @@
+(this["webpackJsonptemplate-react"]=this["webpackJsonptemplate-react"]||[]).push([[60],{96:function(t,a,e){"use strict";e.r(a),a.default=e.p+"static/media/southSea.9a4bb11a.svg"}}]);
+//# sourceMappingURL=60.7db2a148.chunk.js.map

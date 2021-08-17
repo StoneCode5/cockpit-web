@@ -1,0 +1,79 @@
+// @colorCardBackground: rgb(2, 18, 55);
+@colorCardBackground: transparent;
+@tableBorderColor: blue;
+@tableHightlightColor: #061036;
+
+
+
+.tableOddRow,
+.tableOddRow:hover {
+  background-image: linear-gradient(90deg, #182955 0%, rgba(24,41,85,0.70) 100%);
+}
+
+.tableEvenRow,
+.tableEvenRow:hover {
+  background-color: transparent;
+    .ant-table-cell {
+      border: none;
+    }
+}
+
+.tableBox {
+  position: relative;
+    // 解决 1.5倍缩放时 出现的白色间隙 问题
+    .ant-table {
+      background-color: @colorCardBackground;
+    }
+    // 取消table hover效果
+    tr:hover td {
+      background: transparent !important;
+    }
+    // 解决滑动穿透问题
+    tr:hover .ant-table-cell-fix-left {
+      background: @colorCardBackground !important;
+    }
+    // 取消表格内边框
+    .ant-table-tbody > tr > td {
+      // border-bottom: none;
+      border: none;
+    }
+    .ant-table-tbody > tr > td:nth-child(1) {
+      padding-right: 0;
+    }
+    .ant-table-cell {
+      color: #C9EAFF;
+      opacity: 0.7;
+      font-size: 13px;
+    }
+    .ant-table-thead {
+      background-color: @tableHightlightColor;
+      .ant-table-cell {
+        border: none;
+        background-color: @tableHightlightColor;
+        font-size: 12px;
+        color: #dbdbee;
+        letter-spacing: 0;
+        line-height: 26px;
+        padding: 0 5px;
+        height: 26px;
+      }
+    }
+
+    .ant-table-tbody {
+      .ant-table-cell {
+        padding: 0 5px;
+        border: none;
+        color: "#C9EAFF";
+        height: 26px;
+        line-height: 26px;
+      }
+    }
+    // 阴影部分
+    .ant-table-ping-left .ant-table-cell-fix-left-first:after,
+    .ant-table-ping-left .ant-table-cell-fix-left-last:after,
+    .ant-table-ping-left:not(.ant-table-has-fix-left)
+      .ant-table-container:before {
+      box-shadow: inset 10px 0 8px -8px #1a1e3b;
+    }
+  
+}

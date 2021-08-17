@@ -1,0 +1,2 @@
+.list{display:flex;justify-content:flex-start;flex-direction:column;flex-wrap:wrap;width:100%;height:100%}.list-item{display:flex;justify-content:space-between;align-items:center}.list-item-box{position:relative}.list-item-box-current,.list-item-box-target{position:absolute;top:0;left:0}.list-item-box-current{z-index:1}.list-item-num{padding-left:8px;width:90px;display:flex;justify-content:space-around}.list-item-num div{min-width:36px}
+/*# sourceMappingURL=53.a626eefe.chunk.css.map */

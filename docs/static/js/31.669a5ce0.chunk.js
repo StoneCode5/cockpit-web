@@ -1,0 +1,2 @@
+(this["webpackJsonptemplate-react"]=this["webpackJsonptemplate-react"]||[]).push([[31],{16:function(t,e,a){"use strict";a.r(e);a(0);var c=a(3);e.default=function(t){var e=t.children,a=t.attr,i=t.id,r=a.x,s=a.y,n=a.w,o=a.h,d=a.deg,p=a.opacity,h={width:n||0,height:o||0,left:r||0,top:s||0,transform:"rotate(".concat(d||0,"deg)"),opacity:p||1};return Object(c.jsx)("div",{style:h,className:"absolute","data-id":i,children:e})}}}]);
+//# sourceMappingURL=31.669a5ce0.chunk.js.map

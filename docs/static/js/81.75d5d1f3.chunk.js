@@ -1,0 +1,2 @@
+(this["webpackJsonptemplate-react"]=this["webpackJsonptemplate-react"]||[]).push([[81],{126:function(t,e,a){"use strict";a.r(e),e.default=a.p+"static/media/mid-bg.23b22986.png"}}]);
+//# sourceMappingURL=81.75d5d1f3.chunk.js.map
